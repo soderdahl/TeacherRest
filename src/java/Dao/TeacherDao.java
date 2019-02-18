@@ -15,7 +15,7 @@ public class TeacherDao {
     public TeacherDao() {
 
     }
-
+	//Add teacher
     public void add(Teacher t) {
 
         em.persist(t);
